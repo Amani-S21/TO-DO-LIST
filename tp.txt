@@ -1,0 +1,4 @@
+1. ajouter un boutton Tout Supprimer pour effacer toutes les taches
+2. Un filtre : "Toutes", "En cours" et "Terminer" et toutes ces filtres doivent filtrer les taches
+3. Ajoute une date de debut une une date de fin pour chaque tache et puis la date de debut de doit pas etre inferieur a aujourd'hui et la dte de fin ne doit pas etre inferieur a la date de debut
+4. Ajouter un message de confirmation avant la suppression d'une tache ou de toutes les taches
