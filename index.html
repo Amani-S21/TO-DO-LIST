@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="conteneur">
+        <h1>Ma To-Do List</h1>
+        <p>Organisez vos tâches et atteignez vos objectifs.</p>
+
+        <form id="formulaire-tache">
+            <input
+                type="text"
+                id="champ-tache"
+                placeholder="Ex. : Étudier JavaScript"
+                maxlength="150"
+                required
+            >
+            <button type="submit">Ajouter</button>
+        </form>
+
+        <div class="statistiques">
+            <span>Total : <strong id="total">0</strong></span>
+            <span>Terminées : <strong id="terminees">0</strong></span>
+            <span>Restantes : <strong id="restantes">0</strong></span>
+        </div>
+
+        <p id="message-vide">Aucune tâche pour le moment.</p>
+        <ul id="liste-taches"></ul>
+    </main>
+</body>
+</html>
